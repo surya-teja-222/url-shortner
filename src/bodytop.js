@@ -3,20 +3,29 @@ import Heroimg from './assets/images/illustration-working.svg';
 function bodytop()
 {
     return (
-        <div id="bodytop">
-            <div className="hero_image overflow-clip mt-[30px]">
-                <img src={Heroimg} alt="hero image" className='hero__img translate-x-20' />
+        <div id="bodytop" className='bodytop'>
+            <div className='md:flex md:flex-row-reverse md:flex-vertical md:mt-[80px]'>
+                <div className="hero_image overflow-clip mdm:mt-[30px]">
+                    <img src={Heroimg} alt="hero image" className='hero__img translate-x-20 md:w-[100%]' />
 
-            </div>
-            <div className="hero_text font-Poppins mt-[45px]">
-                <h1 className='font-bold text-[30px] self-center text-center mx-[40px]'>More than just shorter links</h1>
-                <p className='font-normal mx-[30px] text-t-grey text-center text-[18px] mt-[30px]'>
-                    Build your brand's recognition 
-                    and get detailed insights on 
-                    how your links are performing.
-                    </p>
-                
-                    <a href='#' className='green-button self-center text-center  block hover:opacity-100 w-[50%] translate-x-[50%] mt-[34px]'>Sign Up</a>
+                </div>
+                <div className="hero_text font-Poppins mdm:mt-[45px] md:ml-[170px]">
+                    <h1 className='font-bold mdm:self-center mdm:text-center mdm:text-[30px] mdm:mx-[40px]  md:text-[56px] md:leading-[60px]'>More than just shorter links</h1>
+                    <p className='font-normal mdm:mx-[30px] text-t-grey mdm:text-center mdm:text-[18px] mdm:mt-[30px] md:text-[22px] md:mt-[24px]'>
+                        Build your brand's recognition 
+                        and get detailed insights on 
+                        how your links are performing.
+                        </p>
+
+                        <a href='#' 
+                            className='green-button self-center 
+                                    text-center  block 
+                                     mdm:w-[50%] 
+                                    mdm:translate-x-[50%] mdm:mt-[34px]
+                                    md:mt-[40px] md:w-[30%]'>
+                                        Get Started
+                        </a>
+                </div>
             </div>
         </div>
     );
