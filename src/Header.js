@@ -44,7 +44,7 @@ function Header(){
                 <center><hr className='w-[280px] self-center '></hr></center>
                 <div className='flex flex-col'>
                 <a href='#' className='self-center mt-[38px] '>Login</a>
-                <a href='#' className='green-button self-center mt-[38px]'>Sign Up</a>
+                <a href='#' className='green-button self-center mt-[38px] hover:opacity-100'>Sign Up</a>
                 </div>
 
             </div>
