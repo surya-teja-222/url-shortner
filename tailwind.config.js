@@ -17,8 +17,10 @@ module.exports = {
       't-grey': 'hsl(0, 0%, 75%)',
       'c-cyan'  : 'hsl(180, 66%, 49%)',
       'c-white' : 'hsl(0, 0%, 100%)',
+      'c-white-2' :'hsl(230, 25%, 95%)',
       'c-very-dark-blue' : 'hsl(255, 11%, 22%)',
       'c-dark-violet': 'hsl(257, 27%, 26%)',
+      
     },
     // custom fonts
     fontFamily: {
