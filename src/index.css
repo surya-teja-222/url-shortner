@@ -39,5 +39,6 @@
     width: calc(100% - 48px);
     height: 390px;
     transform: translateX(5%);
+    z-index: 10;
     
 }
