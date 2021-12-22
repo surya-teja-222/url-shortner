@@ -19,6 +19,9 @@
     transform: rotate(45deg) translate(-5px, -0px) ;
     transition: all 0.3s ease-in-out;
 }
+input{
+    font-family:  'Poppins', sans-serif;
+}
 
 
 
@@ -34,7 +37,11 @@
         @apply self-center bg-c-dark-violet	mt-[24px] rounded-3xl 	;
     }
 
-    /* bodytop */
+    /* links */
+    .green-button-square{
+        @apply bg-c-cyan px-[43px] py-[24px] rounded-xl text-c-white hover:opacity-50 hover:cursor-pointer;
+    }
+
     
 
 }
@@ -50,4 +57,9 @@
 .hero__img{
     min-height: 339px;
     width: 100%;
+}
+
+/* links */
+.translate{
+    transform: translate(-50%,-50%); 
 }
