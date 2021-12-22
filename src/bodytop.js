@@ -1,16 +1,15 @@
-import './bodytop.css';
-import hero from './assets/images/illustration-working.svg'
-
+import Heroimg from './assets/images/illustration-working.svg';
 
 function bodytop()
 {
     return (
-        <div id="bodytop ">
-            <div className="hero_image">
-                <img src={hero} alt="heroImage" className='mdm:h-[339px] mdm:overflow-x-hidden mdm:max-w-fit' />
+        <div id="bodytop  ">
+            <div className="hero_image overflow-clip mt-[30px]">
+                <img src={Heroimg} alt="hero image" className='hero__img translate-x-20' />
 
             </div>
             <div className="hero_text">
+                
 
             </div>
         </div>

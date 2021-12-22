@@ -24,6 +24,7 @@
 
 @layer components{
 
+    /* header.js */
     .green-button{
         @apply bg-c-cyan px-[24px] py-[12px] rounded-full text-c-white hover:opacity-50 hover:cursor-pointer;
     }
@@ -33,6 +34,9 @@
         @apply self-center bg-c-dark-violet	mt-[24px] rounded-3xl 	;
     }
 
+    /* bodytop */
+    
+
 }
 
 .dropdown{
@@ -41,4 +45,9 @@
     transform: translateX(5%);
     z-index: 10;
     
+}
+/* bodytop */
+.hero__img{
+    min-height: 339px;
+    width: 100%;
 }
