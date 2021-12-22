@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.ham .ham-animation-1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px)  ;
+    transform: rotate(-45deg) translate(-9px, 3px);
+    transition: all 0.3s ease-in-out;
+}
+.ham .ham-animation-2 {
+    opacity: 0 ;
+}
+.ham .ham-animation-3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-5px, -0px) ;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+@layer components{
+
+    .green-button{
+        @apply bg-c-cyan px-[24px] py-[12px] rounded-full text-c-white hover:opacity-50 hover:cursor-pointer;
+    }
+
+    .dropdown{
+        
+        @apply self-center bg-c-dark-violet	mt-[24px] rounded-3xl 	;
+    }
+
+}
+
+.dropdown{
+    width: calc(100% - 48px);
+    height: 390px;
+    transform: translateX(5%);
+    
+}
