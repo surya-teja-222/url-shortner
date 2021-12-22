@@ -7,7 +7,7 @@ function bodytop()
     return (
         <div id="bodytop ">
             <div className="hero_image">
-                <img src={hero} alt="heroImage" className='mdm:h-[339px] mdm:overflow-hidden mdm:max-w-fit' />
+                <img src={hero} alt="heroImage" className='mdm:h-[339px] mdm:overflow-x-hidden mdm:max-w-fit' />
 
             </div>
             <div className="hero_text">
