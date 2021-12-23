@@ -43,6 +43,9 @@ input{
         @apply bg-c-cyan px-[43px] py-[24px] rounded-xl text-c-white hover:opacity-50 hover:cursor-pointer;
     }
 
+    .blue-btn{
+        @apply bg-c-dark-violet px-[24px] py-[12px] rounded-full text-c-white hover:opacity-50 ;
+    }
     
 
 }
@@ -104,3 +107,21 @@ input{
     }
     
 }
+
+
+.err_class::placeholder{
+    color: hsl(0, 87%, 67%);
+
+}
+
+.err_class{
+    /* add a border  */
+    border: 2px solid hsl(0, 87%, 67%);
+}
+
+
+.kkk::-webkit-scrollbar {
+  display: none;
+}
+
+

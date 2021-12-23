@@ -15,9 +15,11 @@ function bodybottom(){
             
         // </div>
         <div className="bodybottom">
+            
+            
             <section id="resources" className=' mdm:h-[1300px] md:h-[568px] bg-c-white-2 font-Poppins'>
                 <div className="bg-c-white-2 mdm:pb-[100px] md:pb-[64px]">
-                    <h1 className="text-center text-[24px] font-bold">Advanced Statistics</h1>
+                    <h1 className="text-center text-[24px] font-bold pt-[50px]">Advanced Statistics</h1>
                     <p className="text-center text-t-grey mt-[34px]">Track how your links are performing across the web with our advanced statistics dashboard.
                     </p>
                 </div>
