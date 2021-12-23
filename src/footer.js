@@ -1,11 +1,4 @@
 
-import FacebookLogo from './assets/images/icon-facebook.svg';
-import TwitterLogo from './assets/images/icon-twitter.svg';
-import PinterestLogo from './assets/images/icon-pinterest.svg';
-import InstagramLogo from './assets/images/icon-instagram.svg'; 
-
-
-
 function footer()
 {
     return (
