@@ -17,9 +17,9 @@ function Header(){
                     <img src={logo} className='w-[120px] h-[34px] mdm:ml-[24px] md:ml-[165px]' alt='AppLogo'/>
 
                     <div className='ch-1 mdm:hidden ml-[45px] font-medium text-[18px]'  >
-                        <a className='mr-[30px] hover:text-c-very-dark-blue hover:cursor-pointer' href='#' >Features</a>
-                        <a className='mr-[30px] hover:text-c-very-dark-blue hover:cursor-pointer' href='#' >Pricing</a>
-                        <a className='mr-[0px]  hover:text-c-very-dark-blue hover:cursor-pointer' href='#' >Resources</a>
+                        <a className='mr-[30px] hover:text-c-very-dark-blue hover:cursor-pointer' href='#features' >Features</a>
+                        <a className='mr-[30px] hover:text-c-very-dark-blue hover:cursor-pointer' href='https://github.com/surya-teja-222' >Pricing</a>
+                        <a className='mr-[0px]  hover:text-c-very-dark-blue hover:cursor-pointer' href='#resources' >Resources</a>
                     </div>
                 </div>
 
@@ -37,9 +37,9 @@ function Header(){
 
             <div className='absolute dropdown text-c-white font-bold hidden ease-in duration-300' id='dropdown'>
                 <div className='flex flex-col'>
-                    <a href='#' className='self-center mt-[38px]' >Features</a>
-                    <a href='#' className='self-center mt-[38px]'>Pricing</a>
-                    <a href='#' className='self-center my-[38px]'>Resources</a>
+                    <a href='#features' className='self-center mt-[38px]' >Features</a>
+                    <a href='https://github.com/surya-teja-222' className='self-center mt-[38px]'>Pricing</a>
+                    <a href='#resources' className='self-center my-[38px]'>Resources</a>
                 </div>
                 <center><hr className='w-[280px] self-center '></hr></center>
                 <div className='flex flex-col'>

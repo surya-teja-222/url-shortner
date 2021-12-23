@@ -65,22 +65,42 @@ input{
     transform: translate(-50%,-50%); 
 }
 
-.add_img_mob{
-    @media max-width:1040px {
-        background-image: url('./assets/images/bg-shorten-mobile.svg');
+
+
+
+
+
+
+@media (max-width : 1040px){
+    .violetbody{
+        background-image: url(./assets/images/bg-boost-mobile.svg);
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: right;
+        background-size: cover;
+    }
+    .add-img-link{
+        background-image: url(./assets/images/bg-shorten-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+    }
+
+}
+
+
+@media (min-width: 1040px) {
+    .violetbody{
+        background-image: url(./assets/images/bg-boost-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+    }
+
+    .add-img-link{
+        background-image: url(./assets/images/bg-shorten-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: right;
         background-size: cover;
     }
     
-}
-
-.add_img_md{
-    @media min-width: 1040px{
-        background-image: url('./assets/images/bg-shorten-desktop.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-        
 }
