@@ -3,7 +3,7 @@ import Heroimg from './assets/images/illustration-working.svg';
 function bodytop()
 {
     return (
-        <div id="bodytop" className='bodytop' role="Generate Links">
+        <div id="bodytop" className='bodytop' >
             <div className='md:flex md:flex-row-reverse md:flex-vertical md:mt-[80px]'>
                 <div className="hero_image overflow-clip mdm:mt-[30px]">
                     <img src={Heroimg} alt="hero image" className='hero__img translate-x-20 md:w-[100%]' />
