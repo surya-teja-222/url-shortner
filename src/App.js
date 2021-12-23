@@ -3,6 +3,9 @@ import Header from './Header';
 import HeroBody from './bodytop';
 import Links from './links';
 import Bodybottom from './bodybottom';
+import Footer from './footer';
+
+
 
 function App() {
   return (
@@ -11,8 +14,7 @@ function App() {
       <HeroBody/>
       <Links/>
       <Bodybottom/>
-
-      
+      <Footer/>
     </div>
   );
 }

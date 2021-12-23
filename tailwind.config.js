@@ -20,6 +20,7 @@ module.exports = {
       'c-white-2' :'hsl(230, 25%, 95%)',
       'c-very-dark-blue' : 'hsl(255, 11%, 22%)',
       'c-dark-violet': 'hsl(257, 27%, 26%)',
+      'c-very-dark-violet':'hsl(260, 8%, 14%)',
       
     },
     // custom fonts
