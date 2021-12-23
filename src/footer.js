@@ -2,7 +2,7 @@
 function footer()
 {
     return (
-        <footer className="footer bg-c-very-dark-violet font-Poppins">
+        <footer className="footer bg-c-very-dark-violet font-Poppins" role="footer">
             <div className='flex mdm:flex-col justify-center content-center text-c-white pb-[56px] md:justify-around '>
                 <div className='h-[34px] text-center mt-[52px]'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33" className='block m-auto'>

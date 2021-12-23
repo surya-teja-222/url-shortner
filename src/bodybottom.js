@@ -14,7 +14,7 @@ function bodybottom(){
         //     </div>
             
         // </div>
-        <div className="bodybottom">
+        <div className="bodybottom" role="More Info">
             
             
             <section id="resources" className=' mdm:h-[1300px] md:h-[568px] bg-c-white-2 font-Poppins'>

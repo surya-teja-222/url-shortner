@@ -10,7 +10,7 @@ function Header(){
     }
 
     return (
-        <div className="header font-Poppins align-middle">
+        <div className="header font-Poppins align-middle" role="Header">
             
             <div className='flex w-full justify-between  mt-[40px] '>
                 <div className='flex text-t-grey'>
