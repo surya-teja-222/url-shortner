@@ -30,7 +30,8 @@ function bodybottom(){
 
 
                     <div className='elem1 rounded-2xl bg-c-white mdm:w-[80%] flex flex-col justify-center mdm:items-center md:w-[360px] md:h-[260px] '>
-                        <div className='rounded-full bg-c-dark-violet mdm:translate-y-[-50%] md:w-fit  md:translate-y-[-50%] md:translate-x-[35%]'><img src={img1} className='p-6 h-[88px] w-[88px] '></img></div>
+                        <div className='rounded-full bg-c-dark-violet mdm:translate-y-[-50%] md:w-fit  md:translate-y-[-50%] md:translate-x-[35%]'><img src={img1} alt="img"
+                         className='p-6 h-[88px] w-[88px] '></img></div>
                         <h1 className='mdm:text-center  font-bold  md:ml-[32px]'>Brand Recognition</h1>
                         <p className='mdm:text-center mdm:my-[24px] text-t-grey md:m-[32px]'>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.</p>
 
@@ -43,7 +44,7 @@ function bodybottom(){
 
 
                     <div className='elem2  rounded-2xl bg-c-white mdm:w-[80%] flex flex-col justify-center mdm:items-center  md:w-[360px] md:h-[260px] md:translate-y-[15%]'>
-                        <div className='rounded-full bg-c-dark-violet mdm:translate-y-[-50%] md:w-fit md:translate-y-[-50%] md:translate-x-[35%]'><img src={img2} className='p-6 h-[88px] w-[88px]'></img></div>
+                        <div className='rounded-full bg-c-dark-violet mdm:translate-y-[-50%] md:w-fit md:translate-y-[-50%] md:translate-x-[35%]'><img src={img2} alt="img" className='p-6 h-[88px] w-[88px]'></img></div>
                         <h1 className='mdm:text-center  font-bold md:ml-[32px]'>Detailed Records</h1>
                         <p className='mdm:text-center mdm:my-[24px] text-t-grey md:m-[32px]'>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
 
@@ -54,7 +55,7 @@ function bodybottom(){
 
 
                     <div className='elem3  rounded-2xl bg-c-white mdm:w-[80%] flex flex-col justify-center mdm:items-center  md:w-[360px] md:h-[260px] md:translate-y-[30%]'>
-                        <div className='rounded-full bg-c-dark-violet mdm:translate-y-[-50%] md:w-fit  md:translate-y-[-50%] md:translate-x-[35%]'><img src={img3} className='p-6 h-[88px] w-[88px]'></img></div>
+                        <div className='rounded-full bg-c-dark-violet mdm:translate-y-[-50%] md:w-fit  md:translate-y-[-50%] md:translate-x-[35%]'><img src={img3} alt="img" className='p-6 h-[88px] w-[88px]'></img></div>
                         <h1 className='mdm:text-center  font-bold md:ml-[32px]'>Fully Customizable</h1>
                         <p className='mdm:text-center mdm:my-[24px] text-t-grey md:m-[32px]'>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
 
