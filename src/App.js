@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import HeroBody from './bodytop';
 import Links from './links';
+import Bodybottom from './bodybottom';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Header/>
       <HeroBody/>
       <Links/>
+      <Bodybottom/>
+
       
     </div>
   );
